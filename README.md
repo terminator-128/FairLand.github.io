@@ -14,4 +14,4 @@
 
 加油吧，尝试在回首的时候让自己震惊吧。:angel:hhh.
 
-![itheima](.\pictures\findTheWorld.jpg)
+![itheima](..\pictures\findTheWorld.jpg)
