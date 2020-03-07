@@ -51,7 +51,7 @@
 
 3. #### **进程（线程）的抽象——对CPU的抽象**
 
-   ![abstractOfCPU](..\pictures\abstractOfCPU.png)
+   <img src="..\pictures\abstractOfCPU.png" alt="abstractOfCPU" style="zoom:80%;" />
 
 4. #### **Files文件——对外存和外设的抽象**
 
