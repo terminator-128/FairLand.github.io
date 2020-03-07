@@ -1,6 +1,6 @@
 # 乾坤大挪移之Linux系统编程
 
-![codeRain](..\pictures\codeRain.gif)
+<img src="..\pictures\codeRain.gif" alt="codeRain" style="zoom:80%;" />
 
 ## :alarm_clock:PreLearning
 
