@@ -14,4 +14,4 @@
 
 加油吧，尝试在回首的时候让自己震惊吧。:angel:hhh.
 
-![itheima](..\pictures\findTheWorld.jpg)
+![itheima](https://github.com/terminator-128/FairLand.github.io/blob/master/pictures/findTheWorld.jpg)
