@@ -63,4 +63,4 @@
 
 6. ### **Linux组织结构**
 
-   ![Linux组织结构](..\pictures\Linux组织结构.png)
+   <img src="..\pictures\Linux组织结构.png" alt="Linux组织结构" style="zoom: 80%;" />
