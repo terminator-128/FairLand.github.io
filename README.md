@@ -1,5 +1,19 @@
 # FairLand.github.io
 
+## :alarm_clock:March 15,2020
+
+www去医院了，看诊治疗了好几天，终于有空继续更了，东西还是太少了，学的果然不够多。先在这里说一下今日目标吧:goal_net: :
+
+- 系统编程——SHELL编程，做完LAB实验
+- 数学建模——Lingo编程，python/matlab编程
+- 软件工程——搭好Django平台
+- 数据库——复习到根据E-R创建联系。
+- 深度学习——Google课程
+
+:black_nib:非不可抗因素我会在这里坚持的:happy:
+
+<img src=".\pictures\OverSun.png" alt="OverSun" style="zoom:80%;" />
+
 ## :alarm_clock:March 8,2020
 
 Well, actually this one is written on March 9:lying_face:.
