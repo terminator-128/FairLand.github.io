@@ -1,10 +1,22 @@
 # FairLand.github.io
 
+## :alarm_clock:March 16,2020
+
+好像还是太水了，今天还剩下好多内容没有完成。可能本来就需要全力以赴（对于一个病号来说过于凄惨:tired_face: ）不过，还是要好好干的。今日目标：
+
+- 系统编程——SHELL编程，做完LAB实验
+- 数学建模——Lingo编程，python/matlab编程，趣味问题
+- 软件工程——搭好Django平台
+- 数据库——复习到关系代数。
+- 深度学习——Google课程
+
+<img src=".\pictures\ThreeGirls.jpg" style="zoom:80%;" />
+
 ## :alarm_clock:March 15,2020
 
 www去医院了，看诊治疗了好几天，终于有空继续更了，东西还是太少了，学的果然不够多。先在这里说一下今日目标吧:goal_net: :
 
-- 系统编程——SHELL编程，做完LAB实验
+- 系统编程——用户与用户组
 - 数学建模——Lingo编程，python/matlab编程
 - 软件工程——搭好Django平台
 - 数据库——复习到根据E-R创建联系。
