@@ -1,5 +1,19 @@
 # FairLand.github.io
 
+## :alarm_clock:March 17,2020
+
+今天要写感想，今天要写感想，今天要写感想，重要的事情说三遍:carousel_horse:。
+
+- 系统编程——SHELL编程，做完LAB实验
+- 数学建模——Lingo编程，python/matlab编程，趣味问题
+- 软件工程——搭好Django平台
+- 数据库——复习到关系代数。
+- 深度学习——Google课程，花书，pytorch-handbook
+
+为什么要学的东西不见少却越来越多:confused:。真是人间迷惑行为:four_leaf_clover:。
+
+<img src=".\pictures\Beauty_whitesock.jpg" style="zoom:80%;" />
+
 ## :alarm_clock:March 16,2020
 
 好像还是太水了，今天还剩下好多内容没有完成。可能本来就需要全力以赴（对于一个病号来说过于凄惨:tired_face: ）不过，还是要好好干的。今日目标：
