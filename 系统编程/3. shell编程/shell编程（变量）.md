@@ -1,6 +1,4 @@
-
-
-# Shell编程
+# Shell编程——变量
 
 Shell编程即Shell脚本编程，其本质是利用Shell功能编写程序。这个程序实质上是一个纯文本文件。
 
@@ -28,25 +26,25 @@ Shell脚本有一套相对完善的语法规则，包括变量、数组的定义
 
     - 提升文件权限
 
-      ```Linux
-      # chmod +x first
+      ```shell
+      chmod +x first
       ```
 
     - 将文件当作可执行程序执行
 
-      ```Linux
-      # ./first
+      ```shell 
+      ./first
       ```
 
   - 将脚本文件作为一个参数，传递给Shell解释器进行解析。
 
-    ```Linux
-    # sh first
+    ```shell
+    sh first
     ```
 
 - 输出结果到终端
 
-  ```Linux
+  ```shell
   data is:
   first Shell script
   ```
@@ -75,7 +73,7 @@ Shell脚本有一套相对完善的语法规则，包括变量、数组的定义
 
 Shell中可以使用readonly将某个变量设置为制度变量，使用方法如下：
 
-```Linux
+```shell
 readonly 变量名
 ```
 
@@ -87,7 +85,7 @@ readonly 变量名
 
 Shell中使用$符号来引用变量，若要输出上文定义的变量，可以使用以下方式：
 
-```Linux
+```shell
 echo $var
 ```
 
@@ -95,7 +93,7 @@ echo $var
 
 在Shell脚本中定义变量并进行引用。
 
-```Linux
+```shell
 1	#!/bin/sh
 2	var="hello itheima"
 3	echo $var
@@ -119,7 +117,7 @@ echo $var
 
 ​	Shell脚本中通过echo关键字打印变量，通过read关键字读取变量。当脚本需要从命令行读取数据时，只需在其中添加如下的read语句即可：
 
-```Linux
+```shell
 read 变量名
 ```
 
@@ -145,13 +143,13 @@ read 变量名
 
   [^]: 若要讲一个已经存在的本地变量修改为环境变量，可以使用以下方法：
 
-  ```Linux
+  ```shell
   export 变量名
   ```
 
   若要定义一个环境变量：
 
-  ```Linux
+  ```shell
   export 变量名=值
   ```
 
@@ -199,8 +197,53 @@ read 变量名
 
 [^例如]: 查看传递到脚本的参数数量：
 
-```Linux
+```shell
 echo $#
 ```
 
 ---
+
+### 5. 变量的运算
+
+Shell中的变量没有明确的类型，变量值都以字符串的形式存储，但Shell中也可能进行一些算术运算。那么Shell中的算术运算是如何实现的呢？Shell中的运算一般通过两个命令实现：let和expr。
+
+#### （1）let
+
+​	let命令可以进行算术运算和数值表达式。使用let的格式如下：
+
+```shell
+let expression
+```
+
+命令行中的运算可以直接套用以上格式实现。下面通过实例来展示let在脚本中的使用方法。
+
+假设现有一个名为file的文件，其内容如下：
+
+<img src="..\..\pictures\Shell_let_command_use.jpg" style="zoom:80%;" />
+
+该脚本的运行结果为：
+
+<img src="..\..\pictures\Shell_let_command_use_runtime.jpg" style="zoom:80%;" />
+
+let命令也可以用如下形式代替：
+
+```Linux
+let i+=3  等价于  ((i+=3))
+```
+
+#### （2）expr
+
+​	expr命令用于对整形变量进行算术运算。使用expr命令时可以使两个数值直接进行运算，例如进行加法运算3+5，我们可以在命令行中输入以下命令：
+
+```shell
+$ expr 3+5
+8
+```
+
+<!--需要注意的是：-->
+
+<img src="..\..\pictures\Shell_expr_use.png" style="zoom: 33%;float:left" />
+
+以下是使用expr的实例：
+
+<img src="..\..\pictures\Shell_expr_use_runtime.png" style="zoom: 33%;float:left" />
