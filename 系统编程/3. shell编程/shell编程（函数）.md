@@ -47,4 +47,25 @@ Shell脚本是逐行执行的，所以其中的函数需要在使用前定义。
 
 Shell脚本的函数中也需要数据的传递，但是Shell中的函数却没有参数列表，那么它们是如何传递数据的呢？
 
-在前面介绍了Shell中[位置变量](../shell编程（变量）.md)的概念，其中\$0代表Shell脚本的名称，\$1~\$n 代表脚本中的位置变量。
+在前面介绍了Shell中[位置变量](https://github.com/terminator-128/FairLand.github.io/blob/master/系统编程/3.%20shell编程/shell编程（变量）.md)的概念，其中 \$0 代表Shell脚本的名称，\$1~\$n 代表脚本中的位置变量，这些变量可以依次获取传入脚本的参数。Shell脚本中的也使用这种方式获取参数，其中 \$0 代表函数名，\$n 代表传入函数的第n个参数。
+
+<img src="..\..\pictures\shell_function_position_var.png" style="zoom:48%;" />
+
+在命令行中执行脚本，结果如下：
+
+```shell
+[itheima@localhost~]$ sh  file C++
+Your Choice is C++
+```
+
+分析上面的函数代码，可分为两个部分：#function后#main前的函数 _choice 部分、#main 之后的脚本部分。#main 主体为case···in···esac。
+
+
+
+## 四、函数的变量
+
+<img src="..\..\pictures\function_var_local_1.png" style="zoom:48%;" />
+
+> Shell中函数中不不声明的话首先是使用全局变量；若想在函数内使用局部变量，必须使用 local 关键字进行声明。
+
+<img src="..\..\pictures\function_var_local_2.png" style="zoom:48%;" />
