@@ -47,4 +47,4 @@ Shell脚本是逐行执行的，所以其中的函数需要在使用前定义。
 
 Shell脚本的函数中也需要数据的传递，但是Shell中的函数却没有参数列表，那么它们是如何传递数据的呢？
 
-在前面介绍了Shell中[位置变量](https://github.com/terminator-128/FairLand.github.io/blob/master/系统编程/3.%20shell编程/shell编程（变量）.md)的概念
+在前面介绍了Shell中[位置变量](../shell编程（变量）.md)的概念，其中\$0代表Shell脚本的名称，\$1~\$n 代表脚本中的位置变量。
