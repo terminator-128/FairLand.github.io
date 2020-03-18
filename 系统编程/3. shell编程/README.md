@@ -121,6 +121,8 @@ gcc -c hello.c -o hello 2>file
 
 <!--输出与错误重定向都可以使用>>来以追加的方式将错误输出到指定的文件中-->
 
+> 关于重定向的详细举例参见 [**Shell输入/输出重定向**](https://www.runoob.com/linux/linux-shell-io-redirections.html)
+
 ---
 
 ### 2. 管道
