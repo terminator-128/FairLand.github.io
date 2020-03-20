@@ -1,5 +1,19 @@
 # FairLand.github.io
 
+## :alarm_clock:March 20,2020
+
+今天机缘巧合再读《归去来兮辞》，真的感慨良多:eyes:。hhh，“帝都不可期”的我如今又来到帝都来求学。不求诗满腹，但求月下吟吧:stuck_out_tongue_winking_eye:。
+
+且来定下明日目标:triangular_flag_on_post: ：
+
+- 系统编程——Linux C编程一站学习。
+- 软件工程——搭好Django平台
+- 数据库——复习关系代数，SQL
+- 深度学习——总结已有知识
+- Java编程——学习相关课程，并做完实验。
+
+<img src=".\pictures\goals_on_motobike.jpg" style="width:100%;" />
+
 ## :alarm_clock:March 17,2020
 
 今天要写感想，今天要写感想，今天要写感想，重要的事情说三遍:carousel_horse:。
@@ -12,7 +26,7 @@
 
 为什么要学的东西不见少却越来越多:confused:。真是人间迷惑行为:four_leaf_clover:。
 
-<img src=".\pictures\Beauty_whitesock.jpg" style="zoom:80%;" />
+<img src=".\pictures\Beauty_whitesock.jpg" style="width:100%;" />
 
 ## :alarm_clock:March 16,2020
 
@@ -24,7 +38,7 @@
 - 数据库——复习到关系代数。
 - 深度学习——Google课程
 
-<img src=".\pictures\ThreeGirls.jpg" style="zoom:80%;" />
+<img src=".\pictures\ThreeGirls.jpg" style="width:100%;" />
 
 ## :alarm_clock:March 15,2020
 
@@ -38,7 +52,7 @@ www去医院了，看诊治疗了好几天，终于有空继续更了，东西�
 
 :black_nib:非不可抗因素我会在这里坚持的:happy:
 
-<img src=".\pictures\OverSun.png" alt="OverSun" style="zoom:80%;" />
+<img src=".\pictures\OverSun.png" alt="OverSun" style="width:100%;" />
 
 ## :alarm_clock:March 8,2020
 
@@ -48,7 +62,7 @@ Well, actually this one is written on March 9:lying_face:.
 
 ps: 一些知识我不知道放到哪个领域，就暂时放到/etc。
 
-<img src=".\pictures\GrilWhiteShirt.jpg" style="zoom: 80%;" />
+<img src=".\pictures\GrilWhiteShirt.jpg" style="width:100%;" />
 
 ## :alarm_clock:**March 7,2020**
 
@@ -62,4 +76,4 @@ ps: 一些知识我不知道放到哪个领域，就暂时放到/etc。
 
 加油吧，尝试在回首的时候让自己震惊吧。:angel:hhh.
 
-<img src="./pictures/findTheWorld.jpg" alt="itheima" style="zoom:80%;" />
+<img src="./pictures/findTheWorld.jpg" alt="itheima" style="width:100%;" />
