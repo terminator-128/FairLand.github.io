@@ -10,7 +10,7 @@
 
 **:alarm_clock:February 1,2020**
 
-真男人不说话先放图:monkey_face:。
+在这里放一些[基础知识](./Introduction/BasicKnowledge.md)，这里真男人不说话先放图:monkey_face:。
 
 <img src="..\..\pictures\DataBase_Datamanage_Data.png" style="zoom:75%;" />
 
@@ -22,7 +22,7 @@ zongzhi:full_moon_with_face:，今天将数据库记录的一些内容放在这�
 
 :alarm_clock:**March 19,2020**
 
-### 数据模型
+### [数据模型](./Data Model/README.md)
 
 <img src="..\..\pictures\DATA_model_tree.png" style="width:90%" />
 
