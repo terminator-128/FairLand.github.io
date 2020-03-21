@@ -10,7 +10,7 @@
 
 关系代数用到的运算符包括两类：集合运算符和专门的关系运算符。
 
-<table border='1' style="width:10cm; float:right; margin-left:10%;margin-right:5%" >
+<table style="width:80%" align="center" >
 	<tr>
         <th colspan="2"  align="center">运算符</th>
         <th  align="center">含义</th>
