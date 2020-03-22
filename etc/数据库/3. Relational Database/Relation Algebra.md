@@ -10,7 +10,7 @@
 
 关系代数用到的运算符包括两类：集合运算符和专门的关系运算符。
 
-<table style="width: 80%;margin-left:10%;" align="center" >
+<table style="margin-left:10%;margin-right:10%" align="center" >
 	<tr>
         <th colspan="2"  align="center">运算符</th>
         <th  align="center">含义</th>
@@ -109,9 +109,9 @@ R \times S =\{ \overset{\frown}{t_rt_s} \mid t_r \in R \and t_s \in S  \}
 $$
 其结果仍然为 $n$ 目关系，由属于 $R$ 且属于 $S$ 的元组组成。
 
-<img src="..\..\..\pictures\Cartesian_product.png" style="width:60%;" />
+<img src="..\..\..\pictures\Cartesian_product.png" style="width:50%;" align="center" />
 
-> <img src="..\..\..\pictures\Cartesian_product_2.png" style="zoom:38%;" align=left />
+> <img src="..\..\..\pictures\Cartesian_product_2.png" style="zoom:28%;" align=left />
 
 ---
 
