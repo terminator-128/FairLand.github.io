@@ -2,6 +2,15 @@
 
 ## :alarm_clock:March 20,2020
 
+我`jio`得我人生这快过完的前二十年也是传奇了，在最好的时代在最差的时代:timer_clock:，见证着历史:camera_flash: ，参与着历史:star:。希望我不再是个旁观者:hibiscus:,​而成为参与者:fire:。终于，我要开始接手我的人生了:eagle: 。
+
+- 唯一任务——完成学校课业任务:bookmark:
+- （其实，还有唯二的:laughing: ：20 `hao`留下的结尾）
+
+<img src=".\pictures\For_there_the_top_is.jpg" style="zoom:Infinity%;" />
+
+## :alarm_clock:March 20,2020
+
 今天机缘巧合再读《归去来兮辞》，真的感慨良多:eyes:。hhh，“帝都不可期”的我如今又来到帝都来求学。不求诗满腹，但求月下吟吧:stuck_out_tongue_winking_eye:。
 
 且来定下明日目标:triangular_flag_on_post: ：
