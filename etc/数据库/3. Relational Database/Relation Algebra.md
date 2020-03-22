@@ -10,7 +10,7 @@
 
 关系代数用到的运算符包括两类：集合运算符和专门的关系运算符。
 
-<table style="margin-left:10%;margin-right:10%" align="center" >
+<table style="width:90%" align=center >
 	<tr>
         <th colspan="2"  align="center">运算符</th>
         <th  align="center">含义</th>
@@ -77,7 +77,7 @@
 
 ​	关系 $R$ 和关系 $S$ 的并记作
 $$
-R\cup S =\{ t \mid t \in R \or t \in S  \}
+R\cup S =\{ t \mid t \in R \lor t \in S  \}
 $$
 其结果仍然为 $n$ 目关系，由属于 $R$ 或属于 $S$ 的元组组成。
 
@@ -85,7 +85,7 @@ $$
 
 ​	关系 $R$ 和关系 $S$ 的差记作
 $$
-R-S =\{ t \mid t \in R \and t \notin S  \}
+R-S =\{ t \mid t \in R \land t \notin S  \}
 $$
 其结果仍然为 $n$ 目关系，由属于 $R$ 而不属于 $S$ 的元组组成。
 
@@ -93,7 +93,7 @@ $$
 
 ​	关系 $R$ 和关系 $S$ 的交记作
 $$
-R \cap S =\{ t \mid t \in R \and t \in S  \}
+R \cap S =\{ t \mid t \in R \land t \in S  \}
 $$
 其结果仍然为 $n$ 目关系，由属于 $R$ 且属于 $S$ 的元组组成。
 
@@ -105,11 +105,11 @@ $$
 
 两个分别是 $n$ 目和 $m$ 目的关系 $R$ 和关系 $S$ 的笛卡尔积是一个 $(n+m)$ 列的元组的集合。元组的前 $n$ 列是关系 $R$ 的一个元组，后 $m$ 列是关系 $S$ 的一个元组。若 $R$ 有 $k_1$ 个元组，$S$ 有 $k_2$ 个元组，则关系 $R$ 和关系 $S$ 的笛卡尔积有 $k_1 \times k_2$ 个元组。记作
 $$
-R \times S =\{ \overset{\frown}{t_rt_s} \mid t_r \in R \and t_s \in S  \}
+R \times S =\{ \overset{\frown}{t_rt_s} \mid t_r \in R \land t_s \in S  \}
 $$
 其结果仍然为 $n$ 目关系，由属于 $R$ 且属于 $S$ 的元组组成。
 
-<img src="..\..\..\pictures\Cartesian_product.png" style="width:50%;" align="center" />
+<img src="..\..\..\pictures\Cartesian_product.png" style="width:50%" align="center" />
 
 > <img src="..\..\..\pictures\Cartesian_product_2.png" style="zoom:28%;" align=left />
 
@@ -125,4 +125,4 @@ $$
 >
 > （1）设关系模式为 $R(A_1,A_2,···,A_n)$ ，它的一个关系设为 $R$ 。$t \in R$ 表示 $t$ 是 $R$ 的一个元组。$t[A_i]$ 则表示元组 $t$ 中 中相应于属性 $A_i$ 的一个分量。
 >
-> （2）若 $A={A_{i1},A_{i2},···,A_{ik}}$，其中 $A_{i1},A_{i2},···,A_{ik}$  是 $A_1,A_2,···,A_n$ 中的一部分，则称
+> （2）若 $A={A_{i1},A_{i2},···,A_{ik}}$，其中 $A_{i1},A_{i2},···,A_{ik}$  是 $A_1,A_2,···,A_n$ 中的一部分，则 $A$ 称为属性列或属性组。$t[A]=(t[A_{i1}],t[A_{i2}],···,t[A_{ik}])$ 表示元组 $t$ 在属性列
