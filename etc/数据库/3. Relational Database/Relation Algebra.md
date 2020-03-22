@@ -10,7 +10,7 @@
 
 关系代数用到的运算符包括两类：集合运算符和专门的关系运算符。
 
-<table style="width:80%" align="center" >
+<table style="width: 80%;" align="center" >
 	<tr>
         <th colspan="2"  align="center">运算符</th>
         <th  align="center">含义</th>
@@ -67,3 +67,62 @@
 
 ### 1. 传统的集合运算
 
+> 传统的集合运算是二目运算，包括并、差、交、笛卡尔积
+
+设关系 $R$ 和关系 $S$ 具有相同的目 $n$（即两个关系都有$n$个属性），且相应的属性取自同一个域，$t$ 是元组变量，$t\in R$ 表示 $t$ 是 $R$ 的一个元组。
+
+可以定义 并、差、交、笛卡尔积 运算如下：
+
+##### （1）并（union）
+
+​	关系 $R$ 和关系 $S$ 的并记作
+$$
+R\cup S =\{ t \mid t \in R \or t \in S  \}
+$$
+其结果仍然为 $n$ 目关系，由属于 $R$ 或属于 $S$ 的元组组成。
+
+##### （2）差（except  $\Rightarrow$ difference ）
+
+​	关系 $R$ 和关系 $S$ 的差记作
+$$
+R-S =\{ t \mid t \in R \and t \notin S  \}
+$$
+其结果仍然为 $n$ 目关系，由属于 $R$ 而不属于 $S$ 的元组组成。
+
+##### （3）交（intersection）
+
+​	关系 $R$ 和关系 $S$ 的交记作
+$$
+R \cap S =\{ t \mid t \in R \and t \in S  \}
+$$
+其结果仍然为 $n$ 目关系，由属于 $R$ 且属于 $S$ 的元组组成。
+
+> 关系的交可以用差来表示： $R \cap S=R-(R-S)$
+
+##### （4）笛卡尔积（Cartesian product）
+
+> 这里的笛卡尔积严格地讲应该是**广义的**笛卡尔积（extended Cartesian product），因为这里笛卡尔积的元素是元组。
+
+两个分别是 $n$ 目和 $m$ 目的关系 $R$ 和关系 $S$ 的笛卡尔积是一个 $(n+m)$ 列的元组的集合。元组的前 $n$ 列是关系 $R$ 的一个元组，后 $m$ 列是关系 $S$ 的一个元组。若 $R$ 有 $k_1$ 个元组，$S$ 有 $k_2$ 个元组，则关系 $R$ 和关系 $S$ 的笛卡尔积有 $k_1 \times k_2$ 个元组。记作
+$$
+R \times S =\{ \overset{\frown}{t_rt_s} \mid t_r \in R \and t_s \in S  \}
+$$
+其结果仍然为 $n$ 目关系，由属于 $R$ 且属于 $S$ 的元组组成。
+
+<img src="..\..\..\pictures\Cartesian_product.png" style="width:60%;" />
+
+> <img src="..\..\..\pictures\Cartesian_product_2.png" style="zoom:38%;" align=left />
+
+---
+
+
+
+### 2. 专门的关系运算
+
+专门的关系运算包括选择、投影、连接、除运算等。
+
+> 为了叙述上的方便，先引入一下几个符号：
+>
+> （1）设关系模式为 $R(A_1,A_2,···,A_n)$ ，它的一个关系设为 $R$ 。$t \in R$ 表示 $t$ 是 $R$ 的一个元组。$t[A_i]$ 则表示元组 $t$ 中 中相应于属性 $A_i$ 的一个分量。
+>
+> （2）若 $A={A_{i1},A_{i2},···,A_{ik}}$，其中 $A_{i1},A_{i2},···,A_{ik}$  是 $A_1,A_2,···,A_n$ 中的一部分，则称
