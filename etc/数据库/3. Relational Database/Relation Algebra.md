@@ -113,7 +113,7 @@ $$
 
 <img src="..\..\..\pictures\Cartesian_product.png" style="width:50%" align="center" />
 
-> <img src="..\..\..\pictures\Cartesian_product_2.png" style="zoom:28%;" align=left />
+> <img src="..\..\..\pictures\Cartesian_product_2.png" style="width:53%;" align=left />
 
 ---
 
@@ -192,9 +192,9 @@ $$
 >     </tr>
 > </table>
 
-> <img src="..\..\..\pictures\selection_relationmodel.png" style="zoom:30%;" align=left />
+> <img src="..\..\..\pictures\selection_relationmodel.png" style="width:39%;" align=left />
 >
-> <img src="..\..\..\pictures\database_selection_example.png" style="zoom:38%;" align=left />
+> <img src="..\..\..\pictures\database_selection_example.png" style="width:50%;" align=left />
 
 ---
 
@@ -208,9 +208,9 @@ $$
 
 > 由此可见，投影操作是从列的角度进行行的运算。
 >
-> <img src="..\..\..\pictures\projection_relationmodel.png" style="zoom:30%;" align=left  />
+> <img src="..\..\..\pictures\projection_relationmodel.png" style="width:50%;" align=left  />
 >
-> <img src="..\..\..\pictures\database_projection_example.png" style="zoom:38%;" align=left />
+> <img src="..\..\..\pictures\database_projection_example.png" style="width:50%;" align=left />
 
 ---
 
@@ -226,7 +226,7 @@ $$
 >
 > <img src="..\..\..\pictures\theta_join_relationAlgbra.png"  style="zoom:28%;" align=left  />
 >
-> <img src="..\..\..\pictures\theta_join_relationAlgbra2.png"  style="zoom:30%;" align=left  />
+> <img src="..\..\..\pictures\theta_join_relationAlgbra2.png"  style="width:39%;" align=left  />
 
 连接运算中两种最为重要最为常用的连接：等值连接、自然连接
 
@@ -236,7 +236,7 @@ $$
 $$
 R \underset{A=B}{\Join} S = \{ \overset{\frown}{t_rt_s} \mid t_r \in R \land t_s \in \land t_r[A] \theta t_s[B] \}
 $$
-<img src="..\..\..\pictures\equi_join_relationAlgbra.png"  style="zoom:38%;" align=center  />
+<img src="..\..\..\pictures\equi_join_relationAlgbra.png"  style="width:59%;" align=center  />
 
 ###### （2）自然连接（[Natural join](https://www.w3resource.com/sql/joins/natural-join.php)）
 
@@ -252,9 +252,9 @@ $$
 
 > 两个关系两个关系做自然连接时，选择两个关系在公共属性上值相等的元组组成新的关系。此时，关系 $R$ 中某些元组有可能在 $S$ 中不存在，从而造成 $R$ 中某些元组操作时被舍弃，同样， $S$ 中某些元组操作时也被舍弃。这些被舍弃的元组称为**悬浮元组**（dangling tuple）。
 >
-> <img src="..\..\..\pictures\outer_join_relationAlgebra.png"  style="zoom:35%;" align=left  />
+> <img src="..\..\..\pictures\outer_join_relationAlgebra.png"  style="width:55%;" align=left  />
 >
-> <img src="..\..\..\pictures\outer_join_relationAlgebra2.png"  style="zoom:33%;" align=center  />
+> <img src="..\..\..\pictures\outer_join_relationAlgebra2.png"  style="width:53%;" align=center  />
 
 ---
 
@@ -274,9 +274,9 @@ $$
 
 > 除操作是同时从行和列的角度进行运算
 
-> <img src="..\..\..\pictures\division_relationAlgebra.png"  style="zoom:33%;" align=left  />
+> <img src="..\..\..\pictures\division_relationAlgebra.png"  style="width:53%;" align=left  />
 >
-> <img src="..\..\..\pictures\division_relationAlgebra2.png"  style="zoom:30%;" align=left  />
+> <img src="..\..\..\pictures\division_relationAlgebra2.png"  style="width:50%;" align=left  />
 
 ### 3. 程序员补充在最后
 
