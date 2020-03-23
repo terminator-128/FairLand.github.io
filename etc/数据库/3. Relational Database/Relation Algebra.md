@@ -149,7 +149,7 @@ $$
 
 > 逻辑表达式的基本形式为： $X_1 \theta\ Y_1$ 。
 >
-> 其中 $\theta$ 表示比较运算符，它可以是 $\gt , \geqslant, \lt,\leqslant,=或\lt\gt $。
+> 其中 $\theta$ 表示比较运算符，它可以是 $\gt , \ge, \lt,\le,=或\lt\gt $。
 >
 > <table >
 > 	<tr>
