@@ -1,6 +1,20 @@
 # FairLand.github.io
 
-## :alarm_clock:March 20,2020
+## :alarm_clock:March 28,2020
+
+又来了，趁现在快来写一下，:new_moon_with_face:省得一会之后又忘了，总之做完了java实验了，写一下之后的目的吧:happy:
+
+- 数学建模——最新的研究性报告 :page_with_curl:
+
+- 确立博客系统的建立，学会使用适当的方法. :shield:
+- 学习 php ，PHP是世界上最好的语言。:feet:
+- 学习系统编程——我jio得这方面好多东西要学:tiger:
+- 数据库SQL  :small_airplane:
+- 深度学习（机器学习）——再学习、再学习、再学习 fight :ok_hand:
+
+<img src=".\pictures\Sakura_with_gril.jpg" style="zoom:80%;" />
+
+## :alarm_clock:March 21,2020
 
 我`jio`得我人生这快过完的前二十年也是传奇了，在最好的时代在最差的时代:timer_clock:，见证着历史:camera_flash: ，参与着历史:star:。希望我不再是个旁观者:hibiscus:,​而成为参与者:fire:。终于，我要开始接手我的人生了:eagle: 。
 
