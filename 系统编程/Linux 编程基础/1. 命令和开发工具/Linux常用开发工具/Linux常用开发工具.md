@@ -6,15 +6,15 @@
 
    - 光标移动
 
-     ![](https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_cursor.jpg)
+     <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_cursor.jpg/" style="zoom:80%;" />
 
    - 删除
 
-     ![](https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_delete.jpg)
+     <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_delete.jpg" style="zoom:80%;" />
 
    - 复制和粘贴
 
-     ![](https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_copyANDpaste.jpg)
+     <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_copyANDpaste.jpg" style="zoom:80%;" />
 
 2. **插入模式**
 
@@ -22,25 +22,23 @@
 
 3. **底行模式**
 
-   ![image-20200213142031440](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20200213142031440.png)
+   ![](https://github.com/terminator-128/FairLand.github.io/blob/master/pictures/vi_operation_saveANDquit.jpg?raw=true)
 
 4. **模式切换**
 
-   <img src="C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20200213143335381.png" alt="image-20200213143335381" style="zoom:80%;" />
+   <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_modechange.jpg/" style="zoom:80%;" />
 
    - **命令行与插入模式**
 
      一般情况下，用户可以使用按键 **i** ，直接进入编辑模式。（重要）
 
-     ![image-20200213143959438](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20200213143959438.png)
+     ![](https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_insertnode.jpg/)
 
    - **命令模式与底行模式**
 
      命令模式下进入底行模式：输入 : 或  / 按键，可进入底行模式。
 
      底行模式下返回命令模式：底行为空，输入ESC，否则，两次。
-
-
 
 ### GCC 编译器
 
