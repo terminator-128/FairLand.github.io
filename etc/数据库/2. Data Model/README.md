@@ -18,7 +18,7 @@
 
 如同在:building_construction:建筑设计的不同阶段需要不同的图纸:page_with_curl: 一样，在开发实施数据库应用系统中也需要使用不同的数据模型：**概念模型**、**逻辑模型**、**物理模型**。
 
-<img src="..\..\..\pictures\Different_Level_of_abstraction_of_datamodel.png" style="width:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Different_Level_of_abstraction_of_datamodel.png" style="width:80%;" />
 
 根据模型应用的不同目的，可以将这些模型分为两大类，它们分别属于两个不同的层次：
 
@@ -40,7 +40,7 @@
   
     > 物理模型具有的是数据库管理系统的任务，数据库设计人员要了解和选择物理模型，最终用户则不必考虑物理级的细节。
 
-<img src="..\..\..\pictures\change_abstract_model.png" style="width:82%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/change_abstract_model.png" style="width:82%;" />
 
 ### :palm_tree: 数据的抽象
 
@@ -235,7 +235,7 @@
 
 由于20世纪80年代以来，计算机厂商推出的数据库管理系统几乎都支持关系模型，非关系系统的产品也大都加上了关系接口。数据库当前的研究工作也都是以关系方法为基础。因此，本文的重点也在关系数据库上，其他各模型会在需要时补充。
 
-<img src="..\..\..\pictures\relation_model.png" style="width:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/relation_model.png" style="width:80%;" />
 
 ### （1）关系模型的数据结构
 

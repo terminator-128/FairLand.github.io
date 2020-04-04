@@ -16,7 +16,7 @@
 
 采用多道程序设计的系统会将CPU的整个生命周期划分为长度相同的时间片，在每个CPU时间片内只处理一个进程。也就是说，在多个时间片上，系统会让多个进程分时使用CPU。假如现在内存中只有三个进程A、B、C。那么CPU时间片的分配情况如图：
 
-<img src="..\..\pictures\MutiProcess_CPU.png" style="width:67%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/MutiProcess_CPU.png" style="width:67%;" />
 
 ​	虽然每个时间片中一个CPU只能处理一个进程，但由于CPU划分的每个时间片是非常微小的，且当下CPU运行速度极快。因此，在宏观上可以认为计算机能并发执行多个程序，处理多个进程。
 

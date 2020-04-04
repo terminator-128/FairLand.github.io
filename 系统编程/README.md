@@ -1,6 +1,6 @@
 # 乾坤大挪移之Linux系统编程
 
-<img src="..\pictures\codeRain.gif" alt="codeRain" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/codeRain.gif" alt="codeRain" style="zoom:80%;" />
 
 ## :alarm_clock:用户权限与SHELL编程——March 8,2020
 
@@ -63,7 +63,7 @@ Plus 有关/proc文件系统:egg:推荐两篇 blog
 
 ### 什么是软件系统？
 
-   <img src="..\pictures\ExampleSoftwareSys.jpg" alt="ExampleOfSoftwareSystem" style="zoom:80%;" />
+   <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/ExampleSoftwareSys.jpg" alt="ExampleOfSoftwareSystem" style="zoom:80%;" />
 
    A platform, application, or other structure that:
 
@@ -80,40 +80,40 @@ Plus 有关/proc文件系统:egg:推荐两篇 blog
 
    
 
-<img src="..\pictures\ViewOfSys.png" alt="ViewOfsystem" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/ViewOfSys.png" alt="ViewOfsystem" style="zoom:80%;" />
 
 ### 软件栈和软件的分层结构
 
 1. #### **软件的栈结构**
 
-<img src="..\pictures\SoftwareStack.png" alt="SoftwareStack" style="zoom:50%;float=left" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SoftwareStack.png" alt="SoftwareStack" style="zoom:50%;float=left" />
 
 2. #### **系统的分层**
 
-<img src="..\pictures\SystemLayers.png" alt="SystemLayers" style="zoom:67%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SystemLayers.png" alt="SystemLayers" style="zoom:67%;" />
 
 3. #### **操作系统的抽象**
 
    **artificial：**
 
-<img src="..\pictures\importanceOfOS.png" alt="importanceOfOS" style="zoom:67%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/importanceOfOS.png" alt="importanceOfOS" style="zoom:67%;" />
 
 ​	**real:**
 
-​	<img src="..\pictures\abstractOfOS.png" alt="abstractOfOS" style="zoom: 50%;" />
+​	<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/abstractOfOS.png" alt="abstractOfOS" style="zoom: 50%;" />
 
 3. #### **进程（线程）的抽象——对CPU的抽象**
 
-   <img src="..\pictures\abstractOfCPU.png" alt="abstractOfCPU" style="zoom:80%;" />
+   <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/abstractOfCPU.png" alt="abstractOfCPU" style="zoom:80%;" />
 
 4. #### **Files文件——对外存和外设的抽象**
 
 5. #### **虚拟内存——对物理内存和外存的抽象**
 
-   <img src="..\pictures\abstractOfVirtualMemory.png" alt="abstractOfVirtualMemory" style="zoom:67%;" />
+   <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/abstractOfVirtualMemory.png" alt="abstractOfVirtualMemory" style="zoom:67%;" />
 
    ps: 详情见计组相关知识。
 
 6. ### **Linux组织结构**
 
-   <img src="..\pictures\Linux组织结构.png" alt="Linux组织结构" style="zoom: 80%;" />
+   <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Linux组织结构.png" alt="Linux组织结构" style="zoom: 80%;" />

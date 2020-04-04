@@ -14,11 +14,11 @@ CREATE DATEBASE database_name
 
 实验示例：
 
-<img src="..\..\..\pictures\SQL_CREATEDATABASE.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQL_CREATEDATABASE.jpg" style="zoom:80%;" />
 
 结果显示:
 
-<img src="..\..\..\pictures\SQL_AFTER_createdatabase.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQL_AFTER_createdatabase.jpg" style="zoom:80%;" />
 
 ## 在数据库中创建新表
 
@@ -37,11 +37,11 @@ CREATE TABLE table_name
 
 实验示例：
 
-<img src="..\..\..\pictures\SQL_CREATETABLE.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQL_CREATETABLE.jpg" style="zoom:80%;" />
 
 实验结果：
 
-<img src="..\..\..\pictures\SQLAFTER_CREATETABLE.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQLAFTER_CREATETABLE.jpg" style="zoom:80%;" />
 
 > [SQL约束](https://www.w3school.com.cn/sql/sql_constraints.asp)用于限制加入表的数据的类型。可以在创建表时，规定约束（通过`CREATE TABLE`语句）；或在表创建之后也可以（通过`ALTER TABLE`）
 
@@ -53,7 +53,7 @@ CREATE TABLE Persons
 )
 ```
 
-<img src="..\..\..\pictures\SQL_CREATETABLE_KEY.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQL_CREATETABLE_KEY.jpg" style="zoom:80%;" />
 
 ## 在数据库中插入新的记录
 
@@ -67,11 +67,11 @@ INSERT INTO table_name (value_1,value_2,···,value_n)
 
 实验示例：
 
-<img src="..\..\..\pictures\SQL_INSERTINTO.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQL_INSERTINTO.jpg" style="zoom:80%;" />
 
 实验结果：
 
-<img src="..\..\..\pictures\SQL_AFTER_INSERTINTO.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQL_AFTER_INSERTINTO.jpg" style="zoom:80%;" />
 
 **（2）在指定的里插入数据：**
 
@@ -81,11 +81,11 @@ INSERT INTO table_NALE (column_1,column_2,···,column_n) VALUES (value_1,value
 
 实验示例：
 
-<img src="..\..\..\pictures\SQL_INSERTINTO_2.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQL_INSERTINTO_2.jpg" style="zoom:80%;" />
 
 运行结果：
 
-<img src="..\..\..\pictures\SQL_AFTER_INSERTINTO_2.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/SQL_AFTER_INSERTINTO_2.jpg" style="zoom:80%;" />
 
 > 1. 在INSERT插入时如果没有设置主键是允许重复的；
 > 2. 如果插入数据主键在表中已存在，则插入数据失败。
@@ -193,7 +193,7 @@ ON 		connect_condituon
 >
 > 结果表中的主键C与A、B主键集之间的关系: $C=A\cap B$
 >
-> <img src="..\..\..\pictures\INNER_JOIN.png" style="zoom:100%;" />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/INNER_JOIN.png" style="zoom:100%;" />
 
 - LEFT     JOIN
 
@@ -213,7 +213,7 @@ ON 			connnect_id
 >
 > 结果表中保留A中的所有行(所有A中主键的记录，B中对应主键记录不存在是结果表中对应B中属性赋值NULL)。
 >
-> <img src="..\..\..\pictures\LEFT_JOIN.png" style="zoom:100%;" />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/LEFT_JOIN.png" style="zoom:100%;" />
 
 - RIGHT  JOIN
 
@@ -233,7 +233,7 @@ ON 			connnect_id
 >
 > 结果表中保留B中的所有行(所有B中主键的记录，A中对应主键记录不存在是结果表中对应A中属性赋值NULL)。
 >
-> <img src="..\..\..\pictures\RIGHT_JOIN.png" style="zoom:100%;" />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/RIGHT_JOIN.png" style="zoom:100%;" />
 
 - FULL    JOIN
 
@@ -253,7 +253,7 @@ ON 			connnect_id
 >
 > 结果表中保留A、B中的所有行(结果集出现A、B中出现的所有主键对应的记录)。
 >
-> <img src="..\..\..\pictures\FULL_JOIN.png" style="zoom:100%;" />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/FULL_JOIN.png" style="zoom:100%;" />
 
 ---
 
@@ -486,7 +486,7 @@ LIMIT num_limit OFFSET num_offset
 
 实验示例：得到下表成绩第二名
 
-<img src="..\..\..\pictures\LIMIT_PRE.jpg" style="zoom:100%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/LIMIT_PRE.jpg" style="zoom:100%;" />
 
 ```sql
 SELECT *
@@ -497,7 +497,7 @@ LIMIT 1 OFFSET 1;
 
 运行结果：
 
-<img src="..\..\..\pictures\LIMIT_AFTER.jpg" style="zoom:100%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/LIMIT_AFTER.jpg" style="zoom:100%;" />
 
 ---
 

@@ -18,7 +18,7 @@ Shell脚本有一套相对完善的语法规则，包括变量、数组的定义
 # vi first
 ```
 
-<img src="..\..\pictures\ShellProgramming.png" style="zoom:48%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/ShellProgramming.png" style="zoom:48%;" />
 
 - 执行脚本文件
 
@@ -102,14 +102,14 @@ echo $var
 6	exit 0
 ```
 
-<img src="..\..\pictures\out_var_shell.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/out_var_shell.jpg" style="zoom:80%;" />
 
 - 若由双引号引起来的字符串有变量的引用，则会输出变量中储存的值。
 - 若由单引号引起来的字符串中有变量的引用，则会原样输出。
 
 下表为Shell中变量常见的引用：
 
-<img src="..\..\pictures\Shell_var_interface.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Shell_var_interface.jpg" style="zoom:80%;" />
 
 ---
 
@@ -161,21 +161,21 @@ read 变量名
 
 假设当前有一个名为loca的脚本，其中的内容如下：
 
-<img src="..\..\pictures\shell_location_var.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_location_var.jpg" style="zoom:80%;" />
 
 执行脚本时使用的命令与输出结果如下：
 
-<img src="..\..\pictures\location_var_runtime.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/location_var_runtime.jpg" style="zoom:80%;" />
 
 使用shift 可以移动位置变量对应的参数，shift每执行一次，参数序列左移一个位置。移除的参数不可再用。
 
 假如代码:paw_prints:如下：
 
-<img src="..\..\pictures\shell_use_of_shift.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_use_of_shift.jpg" style="zoom:80%;" />
 
 则其运行结果为:grey_question: ：
 
-<img src="..\..\pictures\shell_use_shift_runtime.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_use_shift_runtime.jpg" style="zoom:80%;" />
 
 
 
@@ -219,11 +219,11 @@ let expression
 
 假设现有一个名为file的文件，其内容如下：
 
-<img src="..\..\pictures\Shell_let_command_use.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Shell_let_command_use.jpg" style="zoom:80%;" />
 
 该脚本的运行结果为：
 
-<img src="..\..\pictures\Shell_let_command_use_runtime.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Shell_let_command_use_runtime.jpg" style="zoom:80%;" />
 
 let命令也可以用如下形式代替：
 
@@ -242,8 +242,8 @@ $ expr 3+5
 
 <!--需要注意的是：-->
 
-<img src="..\..\pictures\Shell_expr_use.png" style="zoom: 33%;float:left" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Shell_expr_use.png" style="zoom: 33%;float:left" />
 
 以下是使用expr的实例：
 
-<img src="..\..\pictures\Shell_expr_use_runtime.png" style="zoom: 33%;float:left" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Shell_expr_use_runtime.png" style="zoom: 33%;float:left" />

@@ -66,19 +66,19 @@ Shell中的条件判断语句通常可以分为三类：字符串比较、算数
 
 字符串比较中常用的判断条件如下表：
 
-<img src="..\..\pictures\condition_judge_script.png" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/condition_judge_script.png" style="zoom:80%;" />
 
 ###### 2. 算数比较
 
 算数比较中比较的内容一般为整数，常用的判断条件如下表：
 
-<img src="..\..\pictures\condition_judge_script_number.png" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/condition_judge_script_number.png" style="zoom:80%;" />
 
 ###### 3. 文件测试
 
 文件测试中通常是针对文件的属性做出判断，常用的判断条件如下表所示：
 
-<img src="..\..\pictures\condition_judge_script_file.png" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/condition_judge_script_file.png" style="zoom:80%;" />
 
 ---
 
@@ -132,15 +132,15 @@ done
 
 <!--Shell中select语句可以将选项列表做出类似目录的形式，以交互的形式选择列表中的数据，传入select语句中的主体部分加以执行。-->
 
-<img src="..\..\pictures\shell_select_script_use.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_select_script_use.jpg" style="zoom:80%;" />
 
 运行中：
 
-<img src="..\..\pictures\shell_select_script_use_runtime.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_select_script_use_runtime.jpg" style="zoom:80%;" />
 
 输入3，回车。
 
-<img src="..\..\pictures\shell_select_script_use_runtime2.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_select_script_use_runtime2.jpg" style="zoom:80%;" />
 
 ---
 
@@ -162,13 +162,13 @@ exit 0
 
 例：实现四则运算：
 
-<img src="..\..\pictures\shell_script_fournumber_calculate.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_script_fournumber_calculate.jpg" style="zoom:80%;" />
 
 运行结果:
 
-<img src="..\..\pictures\shell_script_fournumber_calculate_runtime.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_script_fournumber_calculate_runtime.jpg" style="zoom:80%;" />
 
-<img src="..\..\pictures\case_another_shell.png" style="zoom: 60%;float:left" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/case_another_shell.png" style="zoom: 60%;float:left" />
 
 ---
 
@@ -214,11 +214,11 @@ done
 
 例：用while计算整数1~100的和。
 
-<img src="..\..\pictures\shell_while_script .jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_while_script .jpg" style="zoom:80%;" />
 
 运行结果：
 
-<img src="..\..\pictures\shell_while_script_runtime.jpg" style="zoom:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/shell_while_script_runtime.jpg" style="zoom:80%;" />
 
 ---
 

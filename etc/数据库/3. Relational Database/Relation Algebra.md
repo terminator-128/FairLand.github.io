@@ -111,7 +111,7 @@ R \times S =\{ \overset{\frown}{t_rt_s} \mid t_r \in R \land t_s \in S  \}
 $$
 其结果仍然为 $n$ 目关系，由属于 $R$ 且属于 $S$ 的元组组成。
 
-<img src="..\..\..\pictures\Cartesian_product.png" style="width:50%" align="center" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Cartesian_product.png" style="width:50%" align="center" />
 
 > <img src="..\..\..\pictures\Cartesian_product_2.png" style="width:53%;" align=left />
 
@@ -192,9 +192,9 @@ $$
 >     </tr>
 > </table>
 
-> <img src="..\..\..\pictures\selection_relationmodel.png" style="width:39%;" align=left />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/selection_relationmodel.png" style="width:39%;" align=left />
 >
-> <img src="..\..\..\pictures\database_selection_example.png" style="width:50%;" align=left />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/database_selection_example.png" style="width:50%;" align=left />
 
 ---
 
@@ -208,9 +208,9 @@ $$
 
 > 由此可见，投影操作是从列的角度进行行的运算。
 >
-> <img src="..\..\..\pictures\projection_relationmodel.png" style="width:50%;" align=left  />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/projection_relationmodel.png" style="width:50%;" align=left  />
 >
-> <img src="..\..\..\pictures\database_projection_example.png" style="width:50%;" align=left />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/database_projection_example.png" style="width:50%;" align=left />
 
 ---
 
@@ -224,7 +224,7 @@ $$
 
 > 连接运算从 $R$ 和 $S$ 的笛卡尔积 $R \times S$ 中选取关系在 $A$ 属性组上的值于 $S$ 关系在 $B$ 属性组上的值满足比较关系 $\theta$ 的元组。
 >
-> <img src="..\..\..\pictures\theta_join_relationAlgbra.png"  style="zoom:28%;" align=left  />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/theta_join_relationAlgbra.png"  style="zoom:28%;" align=left  />
 >
 > <img src="..\..\..\pictures\theta_join_relationAlgbra2.png"  style="width:39%;" align=left  />
 
@@ -236,7 +236,7 @@ $$
 $$
 R \underset{A=B}{\Join} S = \{ \overset{\frown}{t_rt_s} \mid t_r \in R \land t_s \in \land t_r[A] \theta t_s[B] \}
 $$
-<img src="..\..\..\pictures\equi_join_relationAlgbra.png"  style="width:59%;" align=center  />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/equi_join_relationAlgbra.png"  style="width:59%;" align=center  />
 
 ###### （2）自然连接（[Natural join](https://www.w3resource.com/sql/joins/natural-join.php)）
 
@@ -252,9 +252,9 @@ $$
 
 > 两个关系两个关系做自然连接时，选择两个关系在公共属性上值相等的元组组成新的关系。此时，关系 $R$ 中某些元组有可能在 $S$ 中不存在，从而造成 $R$ 中某些元组操作时被舍弃，同样， $S$ 中某些元组操作时也被舍弃。这些被舍弃的元组称为**悬浮元组**（dangling tuple）。
 >
-> <img src="..\..\..\pictures\outer_join_relationAlgebra.png"  style="width:55%;" align=left  />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/outer_join_relationAlgebra.png"  style="width:55%;" align=left  />
 >
-> <img src="..\..\..\pictures\outer_join_relationAlgebra2.png"  style="width:53%;" align=center  />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/outer_join_relationAlgebra2.png"  style="width:53%;" align=center  />
 
 ---
 
@@ -274,7 +274,7 @@ $$
 
 > 除操作是同时从行和列的角度进行运算
 
-> <img src="..\..\..\pictures\division_relationAlgebra.png"  style="width:53%;" align=left  />
+> <img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/division_relationAlgebra.png"  style="width:53%;" align=left  />
 >
 > <img src="..\..\..\pictures\division_relationAlgebra2.png"  style="width:50%;" align=left  />
 

@@ -15,7 +15,7 @@ Shell虽然不是Linux系统内核的一部分，但它调用了系统内可得�
 
 Shell的愿意为"壳"（:shell: ），它包裹在内核之外，处于用户与内核之间。其主要功能为接收用户 :information_desk_person: 输入的命令，找到命令所在位置 :triangular_flag_on_post: ，并加以执行。
 
-<img src="..\..\pictures\ShellKernalUser.png" style="zoom: 50%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/ShellKernalUser.png" style="zoom: 50%;" />
 
 在计算机科学 :computer: 中，可以认为Shell是包裹在内核外的命令接口 ，又因为其最重要的功能是命令解释，所以也可以认为Shell是一个命令解释器。
 
@@ -25,7 +25,7 @@ Shell的愿意为"壳"（:shell: ），它包裹在内核之外，处于用户�
 
 Shell的种类很多常见的有BSh、CSh、KSh、bash等。下标简单的说明了常见的Shell。
 
-<img src="..\..\pictures\ShellKind.png" style="zoom:48%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/ShellKind.png" style="zoom:48%;" />
 
 用户可通过`ls /bin/*sh` 查看系统中安装的shell。
 
@@ -47,7 +47,7 @@ Shell最重要的功能是命令解释，Linux系统中的所有可执行文件�
 
 Shell对命令的解释如图所示。
 
-<img src="..\..\pictures\Process_ShellCommand.png" style="zoom:75%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Process_ShellCommand.png" style="zoom:75%;" />
 
 ---
 

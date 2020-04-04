@@ -41,7 +41,7 @@
 
 数据库系统的三级模式结构是指数据库系统是由外模式、模式和内模式三级构成，如下图：
 
-<img src="..\..\..\pictures\Three_Levels_of_Schema.png" style="width:80%;" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Three_Levels_of_Schema.png" style="width:80%;" />
 
 #### （1）模式（schema）
 
@@ -109,4 +109,4 @@
 
 具体怎么样自己分别查查吧，Google一下或百度一下，你就知道了。
 
-<img src="..\..\..\pictures\Componet_of_database.jpg" style="width:66%;float:left;margin:1cm" />
+<img src="https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/Componet_of_database.jpg" style="width:66%;float:left;margin:1cm" />
