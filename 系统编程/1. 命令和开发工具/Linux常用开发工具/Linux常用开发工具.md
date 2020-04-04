@@ -6,15 +6,15 @@
 
    - 光标移动
 
-     ![image-20200213140512250](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20200213140512250.png)
+     ![](https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_cursor.jpg)
 
    - 删除
 
-     ![image-20200213140458927](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20200213140458927.png)
+     ![](https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_delete.jpg)
 
    - 复制和粘贴
 
-     ![image-20200213140410328](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20200213140410328.png)
+     ![](https://github.com/terminator-128/FairLand.github.io/raw/master/pictures/vi_operation_copyANDpaste.jpg)
 
 2. **插入模式**
 
